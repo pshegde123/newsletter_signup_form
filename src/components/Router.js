@@ -8,7 +8,7 @@ const Router = () => (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SubscribeComponent/>}/>
-        <Route path="/success" element={<SuccessMessage/>}/>
+        <Route path="/success/:email" element={<SuccessMessage/>}/>
       </Routes>
     </BrowserRouter>    
   </React.StrictMode>
